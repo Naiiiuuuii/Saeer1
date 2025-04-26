@@ -1,0 +1,120 @@
+/* إعدادات أساسية */
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 128, 0, 0.2);
+}
+
+.highlight {
+    color: #43a047;
+}
+
+.welcome-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #43a047;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #2e7d32;
+}
+
+/* الخيارات الأساسية */
+.main-options {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    gap: 15px;
+}
+
+.option-btn {
+    padding: 12px 25px;
+    background-color: #66bb6a;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.option-btn:hover {
+    background-color: #388e3c;
+}
+
+/* تفاصيل وخدمات */
+.details, .categories, .delivery, .feedback {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 128, 0, 0.1);
+}
+
+.details ul, .categories ul, .delivery ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details li, .categories li, .delivery li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.feedback form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    width: fit-content;
+    align-self: center;
+    padding: 10px 30px;
+    background-color: #43a047;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #2e7d32;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a5d6a7;
+    font-size: 14px;
+}
